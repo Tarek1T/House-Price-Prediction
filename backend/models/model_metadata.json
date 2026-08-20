@@ -1,0 +1,27 @@
+{
+  "model": "RandomForestRegressor",
+  "sklearn_version": "1.8.0",
+  "test_size": 0.2,
+  "random_state": 42,
+  "numeric_features": [
+    "carpet_area_sqft",
+    "floor_num",
+    "bathroom",
+    "balcony"
+  ],
+  "categorical_features": [
+    "location_grouped",
+    "Furnishing",
+    "Transaction",
+    "Ownership",
+    "facing"
+  ],
+  "metrics": {
+    "MAE": 1165597.921560773,
+    "RMSE": 3649252.1433709287,
+    "R2": 0.9099965361744414
+  },
+  "training_rows": 139430,
+  "test_rows": 34858,
+  "clean_rows": 174288
+}

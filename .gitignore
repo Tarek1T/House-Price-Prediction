@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+
+# Secrets / local config
+.env
+*.log
+
+# Raw dataset
+notebooks/data/*.csv
+archive.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
